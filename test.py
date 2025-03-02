@@ -12,6 +12,7 @@ df = pd.concat([df1, df2])
 print(df)
 
 # looping the dataframe
+# devleoping the datafram on march 1 2025
 for index, row in df.iterrows():
     print(row['A'], row['B'])
 # joining two dataframes
